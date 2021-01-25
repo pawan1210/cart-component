@@ -2,7 +2,8 @@
 A fully responsive Shopping Cart Component
 
 # Screenshots
-
+![Alt Text](https://i.imgur.com/uCpeky3.png)
+![Alt Text](https://i.imgur.com/scG81e6.png)
 
 
 ## Installation on local machine
