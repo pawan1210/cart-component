@@ -1,0 +1,71 @@
+* {
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 100px auto;
+}
+
+.App .title-header {
+  width: 100%;
+  font-size: 25px;
+  color: #6e7d80;
+  padding: 10px 10px 10px 0;
+}
+.App .title-header span {
+  width: 100%;
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.App .Cart {
+  display: flex;
+  align-items: flex-start;
+}
+.App .Cart {
+  order: 1;
+}
+
+@media screen and (max-width: 1000px) {
+  .App .Cart {
+    flex-direction: column;
+    align-items: center;
+  }
+  .App .Cart .items-div {
+    order: 2;
+  }
+  .App .Cart .items-div {
+    width: 90%;
+  }
+  .App .Cart .checkout-div {
+    margin: 10px 0;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .App {
+    width: 80%;
+  }
+  .App .Cart .items-div {
+    width: 100%;
+  }
+  .App .Cart .checkout-div {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .App {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 100px) {
+  .App {
+    width: 90%;
+  }
+}
