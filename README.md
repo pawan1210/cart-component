@@ -1,4 +1,5 @@
 # React Cart Component
+Live Link - https://cart-component.herokuapp.com/
 A fully responsive Shopping Cart Component
 
 # Screenshots
